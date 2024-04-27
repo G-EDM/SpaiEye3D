@@ -1,0 +1,7 @@
+YOLOV3HEAD:
+  CFG: "./data/cfg/yolov3-single-class-512.cfg"
+  WEIGHT: "./data/weights/yolov3-single-class-512_last.weights"
+  CLASS_NAMES: "./data/cfg/single_class.names"
+
+  SCORE_THRESH: 0.2
+  NMS_THRESH: 0.4

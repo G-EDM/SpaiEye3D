@@ -1,0 +1,7 @@
+YOLOV3:
+  CFG: "./data/cfg/yolo_v3.cfg"
+  WEIGHT: "./data/weights/yolov3.weights"
+  CLASS_NAMES: "./data/cfg/coco.names"
+
+  SCORE_THRESH: 0.5
+  NMS_THRESH: 0.4

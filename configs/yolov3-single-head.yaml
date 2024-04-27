@@ -1,0 +1,7 @@
+YOLOV3:
+  CFG: "./trains/cfg/yolov3-single-class.cfg"
+  WEIGHT: "./trains/weights/single_class/yolov3-single-class_last.weights"
+  CLASS_NAMES: "./trains/data/single_class/obj.names"
+
+  SCORE_THRESH: 0.8
+  NMS_THRESH: 0.4
