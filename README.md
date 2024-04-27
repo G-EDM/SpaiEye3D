@@ -2,7 +2,7 @@
 
 This is an old project for facerecognition using YOLOv3. I started converting it to C++ but never finished it.
 
-This project can be used for home surveilance and does support remote monitoring. Support to remotely control 3 axis cameras is not integrated. 
+This project can be used for home surveilance and does support remote monitoring. Support to remotely control 2 axis cameras is not integrated. 
 
 # Warning
 
