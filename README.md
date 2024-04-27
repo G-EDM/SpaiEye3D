@@ -4,6 +4,13 @@ This is an old project for facerecognition using YOLOv3. I started converting it
 
 This project can be used for home surveilance and does support remote monitoring. Support to remotely control 3 axis cameras is not integrated. 
 
+# Warning
+
+I haven't worked with this project for a few years now and it is highly possible that some libraries have changed and the code may need a review. If all requirements
+are installed and there are errors please let me know so I can fix it.
+
+The code can run on CPU and on GPU. CPU is very slow. To enable GPU please install CUDA.
+
 # INFO: The trained YOLOv3 weight file is too big to upload it into this repo directly. 
 
 Please download the weight file from the google drive and place it into the "/data/weights/" folder:
