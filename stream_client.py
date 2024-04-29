@@ -174,7 +174,7 @@ class ReverseStreamClient(object):
         else:
             #self.set_default_config()
             #cb = self.run
-            #self.remoteconfigfile = "http://makergrube.com/static/data/180320201845TESTOBJECTtestObJEcT.json"
+            #self.remoteconfigfile = "http://xyz.com/static/data/spaieyeconfig.json"
             cb = self.load_remote_file
 
         self.create_timer(5,cb)
