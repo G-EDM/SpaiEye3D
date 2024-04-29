@@ -26,6 +26,8 @@ and then comment out this line:
             self.detector = YOLOv3(cfg.YOLOV3HEAD.CFG, cfg.YOLOV3HEAD.WEIGHT, cfg.YOLOV3HEAD.CLASS_NAMES, score_thresh=cfg.YOLOV3HEAD.SCORE_THRESH, nms_thresh=cfg.YOLOV3HEAD.NMS_THRESH, is_xywh=True, use_cuda=self.cuda_enabled)
 
 
+The code is built to use a single YOLO class. If the default YOLO weight file is used, which is a multiobject file, the desired class/objecttype needs to be selected somewehere in the code too. Need to look it up.
+
 The language within the project is german and there are no other languages available yet. But it is easy to translate everything by changing the file "/language_pack/language.py"
 
 
