@@ -10,8 +10,9 @@ This project can be used for home surveilance and does support remote monitoring
 
 # Get it running on Debian
 
-    Note: I don't have any graphicscard right now and did not test any cuda stuff. Maybe it needs a dedicated cuda installation, maybe not.
-    On my test setup without graphiccard is runs in CPU mode. Very slow.
+    Note: I don't have a graphic card right now and did not test the cuda stuff. 
+    Maybe it needs a dedicated cuda installation, maybe not.
+    On my test setup without graphic card it runs in CPU mode. Very slow but it runs.
 
 This will create a virtual environment for the python modules.
 The path can be anything.
